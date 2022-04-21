@@ -64,6 +64,25 @@
   --bs-body-bg: #fff;
 }
 
+.home-buttons {
+  margin: 20px 0;
+  list-style: none;
+}
+
+.header-image {
+  background-image: url("home_background.png");
+}
+
+body {
+  opacity: 1;
+  transition-duration: 0.7s;
+  transition-property: opacity;
+}
+
+body.fade {
+  opacity: 0;
+}
+
 *,
 *::before,
 *::after {
@@ -78,7 +97,7 @@
 
 body {
   margin: 0;
-  font-family: var(--bs-body-font-family);
+  font-family: Poppins;
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
   line-height: var(--bs-body-line-height);
